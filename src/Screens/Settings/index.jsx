@@ -11,7 +11,7 @@ const GeocodeByAddress = await geocodeByAddress(address.label);
 const latlang = await getLatLng(GeocodeByAddress[0])
 setCordinates(latlang)
 }
-console.log(GP_API_KEY)
+
     return (
         <Card title="Resterant Details" style={{ margin: 20 }}>
             <Form layout='vertical' wrapperCol={{ span: 12 }}>
