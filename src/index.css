@@ -1,0 +1,30 @@
+.ant-btn-primary{
+  background-color: #48BB78 !important;
+}
+.ant-btn-primary:hover{
+  box-shadow:5px 2px 5px 2px #C6F6D5;
+  transform:scale(1.05)
+}
+.ant-btn-danger{
+  background-color: #E53E3E !important;
+  
+}
+.ant-btn-danger:hover{
+  box-shadow:5px 2px 5px 2px #FEB2B2;
+  transform:scale(1.05)
+}
+.ant-pagination-item-active{
+  border-color:#32e686 !important;
+}
+li.ant-pagination-item-active a{
+  color: #38A169 !important
+}
+.ant-menu-item-selected{
+background-color: #32e686!important;
+}
+.ant-menu-item-selected span{
+  color: white !important;
+  }
+.ant-menu-item-active{
+  color:#3fc060
+}
